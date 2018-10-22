@@ -5,6 +5,7 @@ extern WriteString: PROC
 extern WriteHex64: PROC
 extern Crlf: PROC
 
+
 .CODE
 main PROC
 	mov rax,1
