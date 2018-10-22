@@ -27,12 +27,14 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <MASM Include="Disasm64.asm" />
     <MASM Include="Irvine64.asm" />
     <MASM Include="main.asm" />
   </ItemGroup>
+  <ItemGroup>
+    <Object Include="..\Disasm64\x64\Debug\Disasm64.obj" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{29B966A5-19DF-4089-9B24-B23AAF7F8BF9}</ProjectGuid>
+    <ProjectGuid>{FD27EBF0-BD6B-48BB-9FCC-4EA971727E56}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>Project64</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>

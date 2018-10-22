@@ -3,6 +3,8 @@
   <ItemGroup>
     <MASM Include="main.asm" />
     <MASM Include="Irvine64.asm" />
-    <MASM Include="Disasm64.asm" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="..\Disasm64\x64\Debug\Disasm64.obj" />
   </ItemGroup>
 </Project>
