@@ -30,6 +30,11 @@
     <MASM Include="Disasm64.asm" />
     <MASM Include="Irvine64.asm" />
     <MASM Include="main.asm" />
+    <MASM Include="test_make_file.asm" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SmallWin.inc" />
+    <None Include="Win64.inc" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{29B966A5-19DF-4089-9B24-B23AAF7F8BF9}</ProjectGuid>

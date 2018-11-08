@@ -5,15 +5,21 @@ extern WriteString: PROC
 extern WriteHex64: PROC
 extern Crlf: PROC
 
+extern SkaitykFaila: PROC
+extern IrasykFaila: PROC
+extern Dizasambliuok: PROC
 
 .CODE
 main PROC
-	mov rax,1
-	inc rax
-	call SumTwo
-
 	mov rdx, offset WellcomeText
 	call WriteString
+
+	call SkaitykFaila
+
+	call Dizasambliuok
+
+;	call IrasykFaila
+
 	call ReadString
 	call ExitProcess
 main ENDP
@@ -24,5 +30,5 @@ SumTwo PROC
 SumTwo ENDP
 
 .DATA
-WellcomeText byte '8088 Disassembler V0.1',0
+WellcomeText byte '8088 Disassembler V0.1',13,10,0
 END
