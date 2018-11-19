@@ -1,0 +1,101 @@
+a100
+push word ptr [bx]
+push word ptr [bx+78]
+push word ptr [bx+3456]
+push word ptr [bx+si]
+push word ptr [bx+si+79]
+push word ptr [bx+si+5678]
+push word ptr [bx+di]
+push word ptr [di]
+push word ptr [di+58]
+push word ptr [di+3456]
+push word ptr [bp]
+push word ptr [bp+58]
+push word ptr [bp+3456]
+push word ptr [bp+di+5678]
+push ds
+push cs
+push ss
+push es
+pop word ptr [bx]
+pop word ptr [bx+78]
+pop word ptr [bx+3456]
+pop word ptr [bx+si]
+pop word ptr [bx+si+79]
+pop word ptr [bx+si+5678]
+pop word ptr [bx+di]
+pop word ptr [di]
+pop word ptr [di+58]
+pop word ptr [di+3456]
+pop word ptr [bp]
+pop word ptr [bp+58]
+pop word ptr [bp+3456]
+pop word ptr [bp+di+5678]
+pop ds
+db 0F
+pop ss
+pop es
+db 50 51 52 53 54 55 56 57
+db 58 59 5A 5B 5C 5D 5E 5F
+xchg AL, AH
+xchg CL, AH
+xchg AL, BL
+xchg DL, CH
+xchg DH, BH
+xchg BX, CX
+xchg BX, BX
+xchg DX, CX
+xchg CX, BX
+xchg SP, BP
+xchg SI, DI
+xchg CX, DI
+xchg DI, SI
+xchg BP, CX
+xchg DX, BP
+xchg AL, byte ptr [bx]
+xchg CL, byte ptr [bp]
+xchg AL, byte ptr [bx+si]
+xchg DL, byte ptr [bp+2345]
+xchg DH, byte ptr [si+2354]
+xchg SI, word ptr [bx]
+xchg CX, word ptr [bp+di]
+xchg AX, word ptr [bx+si+15]
+xchg BP, word ptr [bp+di+2345]
+xchg DX, word ptr [si+2354]
+db 90 91 92 93 94 95 96 97
+in al, 12
+in ax, 15
+in al, dx
+in ax, dx
+out 17, al
+out 45, ax
+out dx, al
+out dx, ax
+xlat
+lea bx, [bx+si+2354]
+lea cx, [bp+si+54]
+lea dx, [bp]
+lea di, [12]
+les bx, [bx+si+2354]
+lds cx, [bp+si+54]
+les dx, [bp]
+lahf
+sahf
+pushf
+popf
+
+
+u100
+u
+u
+u
+u
+u
+u
+
+r cx
+DB
+n t2.com
+w
+q
+

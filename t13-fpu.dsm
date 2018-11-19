@@ -1,0 +1,32 @@
+a100
+fnop
+fld float ptr [si]
+fld double ptr [bx+si]
+fild word ptr [di]
+fld dword ptr [bp+si]
+fbld tbyte ptr [bx+12]
+fxch st(3)
+ftst
+fistp word ptr [4567]
+fsqrt
+fpatan
+fldcw word ptr [bx]
+
+u100
+u
+u
+u
+u
+u
+u
+u
+u
+
+
+
+r cx
+1A
+n t13-fpu.com
+w
+q
+

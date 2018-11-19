@@ -1,0 +1,544 @@
+a100
+shl word ptr [bx], 1
+shl byte ptr [bx+78], cl 
+shl word ptr [bx+3456], 1 
+shl di, cl
+shl byte ptr [bx+si+69], 1
+shl word ptr [bx+si+5678], cl
+shl word ptr [bx+di], 1
+shl word ptr [bx+di+49], cl
+shl si, 1
+shl byte ptr [si], cl
+shl word ptr [si+78], 1
+shl byte ptr [si+3456], cl
+shl word ptr [di], 1
+shl byte ptr [di+78], cl
+shl word ptr [di+3456], 1
+shl word ptr [bp], cl
+shl word ptr [bp+78], 1
+shl dh, cl
+shl byte ptr [bp+si], 1
+shl word ptr [bp+si+59], cl
+shl word ptr [bp+si+5678], 1
+shl byte ptr [bp+di], cl
+shl word ptr [bp+di+19], 1
+shl word ptr [bp+di+5678], cl
+shr word ptr [bx], 1
+shr byte ptr [bx+78], cl 
+shr word ptr [bx+3456], 1 
+shr word ptr [bx+si], cl
+shr byte ptr [bx+si+69], 1
+shr word ptr [bx+si+5678], cl
+shr word ptr [bx+di], 1
+shr word ptr [bx+di+49], cl
+shr word ptr [bx+di+5678], 1
+shr byte ptr [si], cl
+shr word ptr [si+78], 1
+shr byte ptr [si+3456], cl
+shr word ptr [di], 1
+shr al, cl
+shr word ptr [di+3456], 1
+shr word ptr [bp], cl
+shr word ptr [bp+78], 1
+shr cx, cl
+shr byte ptr [bp+si], 1
+shr word ptr [bp+si+59], cl
+shr word ptr [bp+si+5678], 1
+shr byte ptr [bp+di], cl
+shr bp, 1
+shr word ptr [bp+di+5678], cl
+rol word ptr [bx], 1
+rol byte ptr [bx+78], cl 
+rol word ptr [bx+3456], 1 
+rol di, cl
+rol byte ptr [bx+si+69], 1
+rol word ptr [bx+si+5678], cl
+rol word ptr [bx+di], 1
+rol word ptr [bx+di+49], cl
+rol si, 1
+rol byte ptr [si], cl
+rol word ptr [si+78], 1
+rol byte ptr [si+3456], cl
+rol word ptr [di], 1
+rol byte ptr [di+78], cl
+rol word ptr [di+3456], 1
+rol word ptr [bp], cl
+rol word ptr [bp+78], 1
+rol dh, cl
+rol byte ptr [bp+si], 1
+rol word ptr [bp+si+59], cl
+rol word ptr [bp+si+5678], 1
+rol byte ptr [bp+di], cl
+rol word ptr [bp+di+19], 1
+rol word ptr [bp+di+5678], cl
+ror word ptr [bx], 1
+ror byte ptr [bx+78], cl 
+ror word ptr [bx+3456], 1 
+ror di, cl
+ror byte ptr [bx+si+69], 1
+ror word ptr [bx+si+5678], cl
+ror word ptr [bx+di], 1
+ror word ptr [bx+di+49], cl
+ror si, 1
+ror byte ptr [si], cl
+ror word ptr [si+78], 1
+ror byte ptr [si+3456], cl
+ror word ptr [di], 1
+ror byte ptr [di+78], cl
+ror word ptr [di+3456], 1
+ror word ptr [bp], cl
+ror word ptr [bp+78], 1
+ror dh, cl
+ror byte ptr [bp+si], 1
+ror word ptr [bp+si+59], cl
+ror word ptr [bp+si+5678], 1
+ror byte ptr [bp+di], cl
+ror word ptr [bp+di+19], 1
+ror word ptr [bp+di+5678], cl
+rcr word ptr [bx], 1
+rcr byte ptr [bx+78], cl 
+rcr word ptr [bx+3456], 1 
+rcr di, cl
+rcr byte ptr [bx+si+69], 1
+rcr word ptr [bx+si+5678], cl
+rcr word ptr [bx+di], 1
+rcr word ptr [bx+di+49], cl
+rcr si, 1
+rcr byte ptr [si], cl
+rcr word ptr [si+78], 1
+rcr byte ptr [si+3456], cl
+rcr word ptr [di], 1
+rcr byte ptr [di+78], cl
+rcr word ptr [di+3456], 1
+rcr word ptr [bp], cl
+rcr word ptr [bp+78], 1
+rcr dh, cl
+rcr byte ptr [bp+si], 1
+rcr word ptr [bp+si+59], cl
+rcr word ptr [bp+si+5678], 1
+rcr byte ptr [bp+di], cl
+rcr word ptr [bp+di+19], 1
+rcr word ptr [bp+di+5678], cl
+rcl word ptr [bx], 1
+rcl byte ptr [bx+78], cl 
+rcl word ptr [bx+3456], 1 
+rcl di, cl
+rcl byte ptr [bx+si+69], 1
+rcl word ptr [bx+si+5678], cl
+rcl word ptr [bx+di], 1
+rcl word ptr [bx+di+49], cl
+rcl si, 1
+rcl byte ptr [si], cl
+rcl word ptr [si+78], 1
+rcl byte ptr [si+3456], cl
+rcl word ptr [di], 1
+rcl byte ptr [di+78], cl
+rcl word ptr [di+3456], 1
+rcl word ptr [bp], cl
+rcl word ptr [bp+78], 1
+rcl dh, cl
+rcl byte ptr [bp+si], 1
+rcl word ptr [bp+si+59], cl
+rcl word ptr [bp+si+5678], 1
+rcl byte ptr [bp+di], cl
+rcl word ptr [bp+di+19], 1
+rcl word ptr [bp+di+5678], cl
+not bp
+not word ptr [bp+58]
+not word ptr [bp+3456]
+not cx
+not word ptr [bp+si+39]
+not word ptr [bp+si+5678]
+not dx
+not word ptr [bp+di+49]
+not si
+not byte ptr [di+78]
+not byte ptr [di+3456]
+not dh
+not byte ptr [bp+78]
+not byte ptr [bp+3456]
+not ah
+not bl
+not byte ptr [di+3456]
+and cx, word ptr [bx]
+and dx, word ptr [bx+78]
+and bx, word ptr [bx+3456]
+and si, word ptr [bx+si]
+and di, word ptr [bx+si+79]
+and bp, word ptr [bx+si+5678]
+and si, word ptr [bx+di]
+and di, word ptr [bx+di+29]
+and bp, word ptr [bx+di+5678]
+and sp, word ptr [si]
+and dx, word ptr [si+28]
+and bx, word ptr [si+3456]
+and ax, word ptr [di]
+and dx, word ptr [di+58]
+and bx, word ptr [di+3456]
+and cx, word ptr [bp]
+and dx, word ptr [bp+58]
+and bx, word ptr [bp+3456]
+and si, word ptr [bp+si]
+and di, word ptr [bp+si+39]
+and bp, word ptr [bp+si+5678]
+and si, word ptr [bp+di]
+and di, word ptr [bp+di+49]
+and bp, word ptr [bp+di+5678]
+and word ptr [bx], cx
+and word ptr [bx+78], dx 
+and word ptr [bx+3456], bx 
+and word ptr [bx+si], ax
+and word ptr [bx+si+69], sp
+and word ptr [bx+si+5678], di
+and word ptr [bx+di], bp
+and word ptr [bx+di+49], si
+and word ptr [bx+di+5678], di
+and word ptr [si], ax
+and word ptr [si+78], cx
+and word ptr [si+3456], dx
+and word ptr [di], bp
+and word ptr [di+78], sp
+and word ptr [di+3456], si
+and word ptr [bp], di
+and word ptr [bp+78], cx
+and word ptr [bp+3456], dx
+and word ptr [bp+si], si
+and word ptr [bp+si+59], di
+and word ptr [bp+si+5678], ax
+and word ptr [bp+di], di
+and word ptr [bp+di+19], bx
+and word ptr [bp+di+5678], dx
+and al, byte ptr [di]
+and ah, byte ptr [di+78]
+and bh, byte ptr [di+3456]
+and cl, byte ptr [bp]
+and dl, byte ptr [bp+78]
+and bl, byte ptr [bp+3456]
+and ch, byte ptr [bp+si]
+and byte ptr [di+78], dh
+and byte ptr [di+3456], dl
+and byte ptr [bp], ch
+and byte ptr [bp+56], cl
+and byte ptr [bp+3456], bh
+and byte ptr [bp+si], bl
+and byte ptr [bp+si+45], ah
+and byte ptr [bp+si+5678], al
+and byte ptr [di+78], 15
+and byte ptr [di+3456], 16
+and byte ptr [bp], 28
+and byte ptr [bp+56], 88
+and word ptr [bp+3456], 1234
+and word ptr [bp+si], 3415
+and word ptr [bp+si+45], 4785
+and word ptr [bp+si+5678], 1536
+and cl, 15
+and ch, 16
+and dl, 28
+and ah, 88
+and bx, word ptr 1234
+and di, word ptr 3415
+and sp, word ptr 4785
+and bp, word ptr 1536
+db 24 15
+db 25 15 16
+test cx, word ptr [bx]
+test dx, word ptr [bx+78]
+test bx, word ptr [bx+3456]
+test si, word ptr [bx+si]
+test di, word ptr [bx+si+79]
+test bp, word ptr [bx+si+5678]
+test si, word ptr [bx+di]
+test di, word ptr [bx+di+29]
+test bp, word ptr [bx+di+5678]
+test sp, word ptr [si]
+test dx, word ptr [si+28]
+test bx, word ptr [si+3456]
+test ax, word ptr [di]
+test dx, word ptr [di+58]
+test bx, word ptr [di+3456]
+test cx, word ptr [bp]
+test dx, word ptr [bp+58]
+test bx, word ptr [bp+3456]
+test si, word ptr [bp+si]
+test di, word ptr [bp+si+39]
+test bp, word ptr [bp+si+5678]
+test si, word ptr [bp+di]
+test di, word ptr [bp+di+49]
+test bp, word ptr [bp+di+5678]
+test word ptr [bx], cx
+test word ptr [bx+78], dx 
+test word ptr [bx+3456], bx 
+test word ptr [bx+si], ax
+test word ptr [bx+si+69], sp
+test word ptr [bx+si+5678], di
+test word ptr [bx+di], bp
+test word ptr [bx+di+49], si
+test word ptr [bx+di+5678], di
+test word ptr [si], ax
+test word ptr [si+78], cx
+test word ptr [si+3456], dx
+test word ptr [di], bp
+test word ptr [di+78], sp
+test word ptr [di+3456], si
+test word ptr [bp], di
+test word ptr [bp+78], cx
+test word ptr [bp+3456], dx
+test word ptr [bp+si], si
+test word ptr [bp+si+59], di
+test word ptr [bp+si+5678], ax
+test word ptr [bp+di], di
+test word ptr [bp+di+19], bx
+test word ptr [bp+di+5678], dx
+test al, byte ptr [di]
+test ah, byte ptr [di+78]
+test bh, byte ptr [di+3456]
+test cl, byte ptr [bp]
+test dl, byte ptr [bp+78]
+test bl, byte ptr [bp+3456]
+test ch, byte ptr [bp+si]
+test byte ptr [di+78], dh
+test byte ptr [di+3456], dl
+test byte ptr [bp], ch
+test byte ptr [bp+56], cl
+test byte ptr [bp+3456], bh
+test byte ptr [bp+si], bl
+test byte ptr [bp+si+45], ah
+test byte ptr [bp+si+5678], al
+test byte ptr [di+78], 15
+test byte ptr [di+3456], 16
+test byte ptr [bp], 28
+test byte ptr [bp+56], 88
+test word ptr [bp+3456], 1234
+test word ptr [bp+si], 3415
+test word ptr [bp+si+45], 4785
+test word ptr [bp+si+5678], 1536
+test cl, 15
+test ch, 16
+test dl, 28
+test ah, 88
+test bx, word ptr 1234
+test di, word ptr 3415
+test sp, word ptr 4785
+test bp, word ptr 1536
+db a8 15
+db a9 15 16
+or cx, word ptr [bx]
+or dx, word ptr [bx+78]
+or bx, word ptr [bx+3456]
+or si, word ptr [bx+si]
+or di, word ptr [bx+si+79]
+or bp, word ptr [bx+si+5678]
+or si, word ptr [bx+di]
+or di, word ptr [bx+di+29]
+or bp, word ptr [bx+di+5678]
+or sp, word ptr [si]
+or dx, word ptr [si+28]
+or bx, word ptr [si+3456]
+or ax, word ptr [di]
+or dx, word ptr [di+58]
+or bx, word ptr [di+3456]
+or cx, word ptr [bp]
+or dx, word ptr [bp+58]
+or bx, word ptr [bp+3456]
+or si, word ptr [bp+si]
+or di, word ptr [bp+si+39]
+or bp, word ptr [bp+si+5678]
+or si, word ptr [bp+di]
+or di, word ptr [bp+di+49]
+or bp, word ptr [bp+di+5678]
+or word ptr [bx], cx
+or word ptr [bx+78], dx 
+or word ptr [bx+3456], bx 
+or word ptr [bx+si], ax
+or word ptr [bx+si+69], sp
+or word ptr [bx+si+5678], di
+or word ptr [bx+di], bp
+or word ptr [bx+di+49], si
+or word ptr [bx+di+5678], di
+or word ptr [si], ax
+or word ptr [si+78], cx
+or word ptr [si+3456], dx
+or word ptr [di], bp
+or word ptr [di+78], sp
+or word ptr [di+3456], si
+or word ptr [bp], di
+or word ptr [bp+78], cx
+or word ptr [bp+3456], dx
+or word ptr [bp+si], si
+or word ptr [bp+si+59], di
+or word ptr [bp+si+5678], ax
+or word ptr [bp+di], di
+or word ptr [bp+di+19], bx
+or word ptr [bp+di+5678], dx
+or al, byte ptr [di]
+or ah, byte ptr [di+78]
+or bh, byte ptr [di+3456]
+or cl, byte ptr [bp]
+or dl, byte ptr [bp+78]
+or bl, byte ptr [bp+3456]
+or ch, byte ptr [bp+si]
+or byte ptr [di+78], dh
+or byte ptr [di+3456], dl
+or byte ptr [bp], ch
+or byte ptr [bp+56], cl
+or byte ptr [bp+3456], bh
+or byte ptr [bp+si], bl
+or byte ptr [bp+si+45], ah
+or byte ptr [bp+si+5678], al
+or byte ptr [di+78], 15
+or byte ptr [di+3456], 16
+or byte ptr [bp], 28
+or byte ptr [bp+56], 88
+or word ptr [bp+3456], 1234
+or word ptr [bp+si], 3415
+or word ptr [bp+si+45], 4785
+or word ptr [bp+si+5678], 1536
+or cl, 15
+or ch, 16
+or dl, 28
+or ah, 88
+or bx, word ptr 1234
+or di, word ptr 3415
+or sp, word ptr 4785
+or bp, word ptr 1536
+db 0c 15
+db 0d 17 16
+xor cx, word ptr [bx]
+xor dx, word ptr [bx+78]
+xor bx, word ptr [bx+3456]
+xor si, word ptr [bx+si]
+xor di, word ptr [bx+si+79]
+xor bp, word ptr [bx+si+5678]
+xor si, word ptr [bx+di]
+xor di, word ptr [bx+di+29]
+xor bp, word ptr [bx+di+5678]
+xor sp, word ptr [si]
+xor dx, word ptr [si+28]
+xor bx, word ptr [si+3456]
+xor ax, word ptr [di]
+xor dx, word ptr [di+58]
+xor bx, word ptr [di+3456]
+xor cx, word ptr [bp]
+xor dx, word ptr [bp+58]
+xor bx, word ptr [bp+3456]
+xor si, word ptr [bp+si]
+xor di, word ptr [bp+si+39]
+xor bp, word ptr [bp+si+5678]
+xor si, word ptr [bp+di]
+xor di, word ptr [bp+di+49]
+xor bp, word ptr [bp+di+5678]
+xor word ptr [bx], cx
+xor word ptr [bx+78], dx 
+xor word ptr [bx+3456], bx 
+xor word ptr [bx+si], ax
+xor word ptr [bx+si+69], sp
+xor word ptr [bx+si+5678], di
+xor word ptr [bx+di], bp
+xor word ptr [bx+di+49], si
+xor word ptr [bx+di+5678], di
+xor word ptr [si], ax
+xor word ptr [si+78], cx
+xor word ptr [si+3456], dx
+xor word ptr [di], bp
+xor word ptr [di+78], sp
+xor word ptr [di+3456], si
+xor word ptr [bp], di
+xor word ptr [bp+78], cx
+xor word ptr [bp+3456], dx
+xor word ptr [bp+si], si
+xor word ptr [bp+si+59], di
+xor word ptr [bp+si+5678], ax
+xor word ptr [bp+di], di
+xor word ptr [bp+di+19], bx
+xor word ptr [bp+di+5678], dx
+xor al, byte ptr [di]
+xor ah, byte ptr [di+78]
+xor bh, byte ptr [di+3456]
+xor cl, byte ptr [bp]
+xor dl, byte ptr [bp+78]
+xor bl, byte ptr [bp+3456]
+xor ch, byte ptr [bp+si]
+xor byte ptr [di+78], dh
+xor byte ptr [di+3456], dl
+xor byte ptr [bp], ch
+xor byte ptr [bp+56], cl
+xor byte ptr [bp+3456], bh
+xor byte ptr [bp+si], bl
+xor byte ptr [bp+si+45], ah
+xor byte ptr [bp+si+5678], al
+xor byte ptr [di+78], 15
+xor byte ptr [di+3456], 16
+xor byte ptr [bp], 28
+xor byte ptr [bp+56], 88
+xor word ptr [bp+3456], 1234
+xor word ptr [bp+si], 3415
+xor word ptr [bp+si+45], 4785
+xor word ptr [bp+si+5678], 1536
+xor cl, 15
+xor ch, 16
+xor dl, 28
+xor ah, 88
+xor bx, word ptr 1234
+xor di, word ptr 3415
+xor sp, word ptr 4785
+xor bp, word ptr 1536
+db 34 18
+db 35 77 56
+
+
+u100
+u
+u
+u
+u
+u
+u
+u
+u
+u
+u
+u
+u
+u
+u
+u
+u
+u
+u
+u
+u
+u
+u
+u
+u
+u
+u
+u
+u
+u
+u
+u
+u
+u
+u
+u
+u
+u
+u
+u
+u
+u
+u
+u
+u
+u
+u
+u
+
+
+r cx
+5ef
+n t10-log.com
+w
+q
+

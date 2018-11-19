@@ -1,0 +1,110 @@
+a100
+add cx, word ptr [bx]
+add dx, word ptr [bx+78]
+add bx, word ptr [bx+3456]
+add si, word ptr [bx+si]
+add di, word ptr [bx+si+79]
+add bp, word ptr [bx+si+5678]
+add si, word ptr [bx+di]
+add di, word ptr [bx+di+29]
+add bp, word ptr [bx+di+5678]
+add sp, word ptr [si]
+add dx, word ptr [si+28]
+add bx, word ptr [si+3456]
+add ax, word ptr [di]
+add dx, word ptr [di+58]
+add bx, word ptr [di+3456]
+add cx, word ptr [bp]
+add dx, word ptr [bp+58]
+add bx, word ptr [bp+3456]
+add si, word ptr [bp+si]
+add di, word ptr [bp+si+39]
+add bp, word ptr [bp+si+5678]
+add si, word ptr [bp+di]
+add di, word ptr [bp+di+49]
+add bp, word ptr [bp+di+5678]
+add word ptr [bx], cx
+add word ptr [bx+78], dx 
+add word ptr [bx+3456], bx 
+add word ptr [bx+si], ax
+add word ptr [bx+si+69], sp
+add word ptr [bx+si+5678], di
+add word ptr [bx+di], bp
+add word ptr [bx+di+49], si
+add word ptr [bx+di+5678], di
+add word ptr [si], ax
+add word ptr [si+78], cx
+add word ptr [si+3456], dx
+add word ptr [di], bp
+add word ptr [di+78], sp
+add word ptr [di+3456], si
+add word ptr [bp], di
+add word ptr [bp+78], cx
+add word ptr [bp+3456], dx
+add word ptr [bp+si], si
+add word ptr [bp+si+59], di
+add word ptr [bp+si+5678], ax
+add word ptr [bp+di], di
+add word ptr [bp+di+19], bx
+add word ptr [bp+di+5678], dx
+add al, byte ptr [di]
+add ah, byte ptr [di+78]
+add bh, byte ptr [di+3456]
+add cl, byte ptr [bp]
+add dl, byte ptr [bp+78]
+add bl, byte ptr [bp+3456]
+add ch, byte ptr [bp+si]
+add byte ptr [di+78], dh
+add byte ptr [di+3456], dl
+add byte ptr [bp], ch
+add byte ptr [bp+56], cl
+add byte ptr [bp+3456], bh
+add byte ptr [bp+si], bl
+add byte ptr [bp+si+45], ah
+add byte ptr [bp+si+5678], al
+add byte ptr [di+78], 15
+add byte ptr [di+3456], 16
+add byte ptr [bp], 28
+add byte ptr [bp+56], 88
+add word ptr [bp+3456], 1234
+add word ptr [bp+si], 3415
+add word ptr [bp+si+45], 4785
+add word ptr [bp+si+5678], 1536
+add word ptr [bp+3456], 12
+add word ptr [bp+si], 35
+add word ptr [bp+si+45], 45
+add word ptr [bp+si+5678], 16
+add cl, 15
+add ch, 16
+add dl, 28
+add ah, 88
+add bx, word ptr 1234
+add di, word ptr 3415
+add sp, word ptr 4785
+add bp, word ptr 1536
+add bx, byte ptr 14
+add si, byte ptr 35
+add sp, byte ptr 65
+add bp, byte ptr 16
+db 04 17
+db 05 17 52
+
+
+u100
+u
+u
+u
+u
+u
+u
+u
+u
+u
+
+
+r cx
+125
+n t3-add.com
+w
+q
+

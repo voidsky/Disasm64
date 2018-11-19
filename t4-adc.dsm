@@ -1,0 +1,110 @@
+a100
+adc cx, word ptr [bx]
+adc dx, word ptr [bx+78]
+adc bx, word ptr [bx+3456]
+adc si, word ptr [bx+si]
+adc di, word ptr [bx+si+79]
+adc bp, word ptr [bx+si+5678]
+adc si, word ptr [bx+di]
+adc di, word ptr [bx+di+29]
+adc bp, word ptr [bx+di+5678]
+adc sp, word ptr [si]
+adc dx, word ptr [si+28]
+adc bx, word ptr [si+3456]
+adc ax, word ptr [di]
+adc dx, word ptr [di+58]
+adc bx, word ptr [di+3456]
+adc cx, word ptr [bp]
+adc dx, word ptr [bp+58]
+adc bx, word ptr [bp+3456]
+adc si, word ptr [bp+si]
+adc di, word ptr [bp+si+39]
+adc bp, word ptr [bp+si+5678]
+adc si, word ptr [bp+di]
+adc di, word ptr [bp+di+49]
+adc bp, word ptr [bp+di+5678]
+adc word ptr [bx], cx
+adc word ptr [bx+78], dx 
+adc word ptr [bx+3456], bx 
+adc word ptr [bx+si], ax
+adc word ptr [bx+si+69], sp
+adc word ptr [bx+si+5678], di
+adc word ptr [bx+di], bp
+adc word ptr [bx+di+49], si
+adc word ptr [bx+di+5678], di
+adc word ptr [si], ax
+adc word ptr [si+78], cx
+adc word ptr [si+3456], dx
+adc word ptr [di], bp
+adc word ptr [di+78], sp
+adc word ptr [di+3456], si
+adc word ptr [bp], di
+adc word ptr [bp+78], cx
+adc word ptr [bp+3456], dx
+adc word ptr [bp+si], si
+adc word ptr [bp+si+59], di
+adc word ptr [bp+si+5678], ax
+adc word ptr [bp+di], di
+adc word ptr [bp+di+19], bx
+adc word ptr [bp+di+5678], dx
+adc al, byte ptr [di]
+adc ah, byte ptr [di+78]
+adc bh, byte ptr [di+3456]
+adc cl, byte ptr [bp]
+adc dl, byte ptr [bp+78]
+adc bl, byte ptr [bp+3456]
+adc ch, byte ptr [bp+si]
+adc byte ptr [di+78], dh
+adc byte ptr [di+3456], dl
+adc byte ptr [bp], ch
+adc byte ptr [bp+56], cl
+adc byte ptr [bp+3456], bh
+adc byte ptr [bp+si], bl
+adc byte ptr [bp+si+45], ah
+adc byte ptr [bp+si+5678], al
+adc byte ptr [di+78], 15
+adc byte ptr [di+3456], 16
+adc byte ptr [bp], 28
+adc byte ptr [bp+56], 88
+adc word ptr [bp+3456], 1234
+adc word ptr [bp+si], 3415
+adc word ptr [bp+si+45], 4785
+adc word ptr [bp+si+5678], 1536
+adc word ptr [bp+3456], 12
+adc word ptr [bp+si], 35
+adc word ptr [bp+si+45], 45
+adc word ptr [bp+si+5678], 16
+adc cl, 15
+adc ch, 16
+adc dl, 28
+adc ah, 88
+adc bx, word ptr 1234
+adc di, word ptr 3415
+adc sp, word ptr 4785
+adc bp, word ptr 1536
+adc bx, byte ptr 14
+adc si, byte ptr 35
+adc sp, byte ptr 65
+adc bp, byte ptr 16
+db 04 17
+db 05 17 52
+
+
+u100
+u
+u
+u
+u
+u
+u
+u
+u
+u
+
+
+r cx
+125
+n t4-adc.com
+w
+q
+

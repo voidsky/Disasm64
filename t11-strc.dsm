@@ -1,0 +1,34 @@
+a100
+lodsb
+lodsw
+movsb
+movsw
+cmpsb
+cmpsw
+scasb
+scasw
+stosb
+stosw
+repe cmpsb
+repne cmpsb
+CLC
+CMC
+STC
+CLD
+STD
+CLI
+STI
+HLT
+WAIT
+LOCK
+
+u100
+u
+
+
+r cx
+18
+n t11-strc.com
+w
+q
+

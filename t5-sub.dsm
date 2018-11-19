@@ -1,0 +1,110 @@
+a100
+sub cx, word ptr [bx]
+sub dx, word ptr [bx+78]
+sub bx, word ptr [bx+3456]
+sub si, word ptr [bx+si]
+sub di, word ptr [bx+si+79]
+sub bp, word ptr [bx+si+5678]
+sub si, word ptr [bx+di]
+sub di, word ptr [bx+di+29]
+sub bp, word ptr [bx+di+5678]
+sub sp, word ptr [si]
+sub dx, word ptr [si+28]
+sub bx, word ptr [si+3456]
+sub ax, word ptr [di]
+sub dx, word ptr [di+58]
+sub bx, word ptr [di+3456]
+sub cx, word ptr [bp]
+sub dx, word ptr [bp+58]
+sub bx, word ptr [bp+3456]
+sub si, word ptr [bp+si]
+sub di, word ptr [bp+si+39]
+sub bp, word ptr [bp+si+5678]
+sub si, word ptr [bp+di]
+sub di, word ptr [bp+di+49]
+sub bp, word ptr [bp+di+5678]
+sub word ptr [bx], cx
+sub word ptr [bx+78], dx 
+sub word ptr [bx+3456], bx 
+sub word ptr [bx+si], ax
+sub word ptr [bx+si+69], sp
+sub word ptr [bx+si+5678], di
+sub word ptr [bx+di], bp
+sub word ptr [bx+di+49], si
+sub word ptr [bx+di+5678], di
+sub word ptr [si], ax
+sub word ptr [si+78], cx
+sub word ptr [si+3456], dx
+sub word ptr [di], bp
+sub word ptr [di+78], sp
+sub word ptr [di+3456], si
+sub word ptr [bp], di
+sub word ptr [bp+78], cx
+sub word ptr [bp+3456], dx
+sub word ptr [bp+si], si
+sub word ptr [bp+si+59], di
+sub word ptr [bp+si+5678], ax
+sub word ptr [bp+di], di
+sub word ptr [bp+di+19], bx
+sub word ptr [bp+di+5678], dx
+sub al, byte ptr [di]
+sub ah, byte ptr [di+78]
+sub bh, byte ptr [di+3456]
+sub cl, byte ptr [bp]
+sub dl, byte ptr [bp+78]
+sub bl, byte ptr [bp+3456]
+sub ch, byte ptr [bp+si]
+sub byte ptr [di+78], dh
+sub byte ptr [di+3456], dl
+sub byte ptr [bp], ch
+sub byte ptr [bp+56], cl
+sub byte ptr [bp+3456], bh
+sub byte ptr [bp+si], bl
+sub byte ptr [bp+si+45], ah
+sub byte ptr [bp+si+5678], al
+sub byte ptr [di+78], 15
+sub byte ptr [di+3456], 16
+sub byte ptr [bp], 28
+sub byte ptr [bp+56], 88
+sub word ptr [bp+3456], 1234
+sub word ptr [bp+si], 3415
+sub word ptr [bp+si+45], 4785
+sub word ptr [bp+si+5678], 1536
+sub word ptr [bp+3456], 12
+sub word ptr [bp+si], 35
+sub word ptr [bp+si+45], 45
+sub word ptr [bp+si+5678], 16
+sub cl, 15
+sub ch, 16
+sub dl, 28
+sub ah, 88
+sub bx, word ptr 1234
+sub di, word ptr 3415
+sub sp, word ptr 4785
+sub bp, word ptr 1536
+sub bx, byte ptr 14
+sub si, byte ptr 35
+sub sp, byte ptr 65
+sub bp, byte ptr 16
+db 04 17
+db 05 17 52
+
+
+u100
+u
+u
+u
+u
+u
+u
+u
+u
+u
+
+
+r cx
+125
+n t5-sub.com
+w
+q
+

@@ -1,0 +1,129 @@
+a100
+JE 120
+JZ 121
+JL 100
+JLE 150
+JB 100
+JBE 120
+JP 122
+JO 100
+JS 102
+JNE 104
+JNZ 102
+JGE 120 
+JG  123
+JAE 102
+JA 100
+JNP 110
+JNO 100
+JNS 150
+LOOP 152
+LOOPZ 100
+LOOPE 101
+LOOPNZ 102
+LOOPNE 103
+JCXZ 125
+call 3456
+call word ptr [bx]
+call word ptr [bx+78]
+call word ptr [bx+3456]
+call word ptr [bx+si]
+call word ptr [bx+si+79]
+call word ptr [bx+si+5678]
+call word ptr [bx+di]
+call word ptr [bx+di+29]
+call word ptr [bx+di+5678]
+call word ptr [si]
+call word ptr [si+28]
+call word ptr [si+3456]
+call word ptr [di]
+call ax
+call bx
+call cx
+call dx
+call sp
+call di
+call bp
+call si
+call bp
+call 3456:2245
+call far ptr [bx]
+call far ptr [bx+78]
+call far ptr [bx+3456]
+call far ptr [bx+si]
+call far ptr [bx+si+79]
+call far ptr [bx+si+5678]
+call far ptr [bx+di]
+call far ptr [bx+di+29]
+call far ptr [bx+di+5678]
+call far ptr [si]
+call far ptr [si+28]
+call far ptr [si+3456]
+call far ptr [di]
+jmp 3456
+db eb 15
+jmp word ptr [bx]
+jmp word ptr [bx+78]
+jmp word ptr [bx+3456]
+jmp word ptr [bx+si]
+jmp word ptr [bx+si+79]
+jmp word ptr [bx+si+5678]
+jmp word ptr [bx+di]
+jmp word ptr [bx+di+29]
+jmp word ptr [bx+di+5678]
+jmp word ptr [si]
+jmp word ptr [si+28]
+jmp word ptr [si+3456]
+jmp word ptr [di]
+jmp ax
+jmp bx
+jmp cx
+jmp dx
+jmp sp
+jmp di
+jmp bp
+jmp si
+jmp bp
+jmp 3456:2245
+jmp far ptr [bx]
+jmp far ptr [bx+78]
+jmp far ptr [bx+3456]
+jmp far ptr [bx+si]
+jmp far ptr [bx+si+79]
+jmp far ptr [bx+si+5678]
+jmp far ptr [bx+di]
+jmp far ptr [bx+di+29]
+jmp far ptr [bx+di+5678]
+jmp far ptr [si]
+jmp far ptr [si+28]
+jmp far ptr [si+3456]
+jmp far ptr [di]
+ret 
+ret 0123
+retf
+retf 2345
+int 3
+into
+int 21
+int 80
+
+
+
+u100
+u
+u
+u
+u
+u
+u
+u
+u
+
+
+
+r cx
+10c
+n t12-jmps.com
+w
+q
+

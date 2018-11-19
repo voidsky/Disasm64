@@ -1,0 +1,96 @@
+a100
+inc word ptr [bx]
+inc word ptr [bx+78]
+inc word ptr [bx+3456]
+inc word ptr [bx+si]
+inc word ptr [bx+si+79]
+inc word ptr [bx+si+5678]
+inc word ptr [bx+di]
+inc word ptr [bx+di+29]
+inc word ptr [bx+di+5678]
+inc word ptr [si]
+inc word ptr [si+28]
+inc word ptr [si+3456]
+inc word ptr [di]
+inc word ptr [di+58]
+inc word ptr [di+3456]
+inc al
+inc cl
+inc dl
+inc bl
+inc ah
+inc ch
+inc bh
+inc dh
+db 40 41 42 43 44 45 46 47
+dec word ptr [bx]
+dec word ptr [bx+78]
+dec word ptr [bx+3456]
+dec word ptr [bx+si]
+dec word ptr [bx+si+79]
+dec word ptr [bx+si+5678]
+dec word ptr [bx+di]
+dec word ptr [bx+di+29]
+dec word ptr [bx+di+5678]
+dec word ptr [si]
+dec word ptr [si+28]
+dec word ptr [si+3456]
+dec word ptr [di]
+dec word ptr [di+58]
+dec word ptr [di+3456]
+dec al
+dec cl
+dec dl
+dec bl
+dec ah
+dec ch
+dec bh
+dec dh
+db 48 49 4A 4B 4C 4D 4E 4F
+aaa
+aad 0A
+aas
+aam 0A
+aad 05
+aam 03
+daa
+das
+neg bp
+neg word ptr [bp+58]
+neg word ptr [bp+3456]
+neg cx
+neg word ptr [bp+si+39]
+neg word ptr [bp+si+5678]
+neg dx
+neg word ptr [bp+di+49]
+neg si
+neg byte ptr [di+78]
+neg byte ptr [di+3456]
+neg dh
+neg byte ptr [bp+78]
+neg byte ptr [bp+3456]
+neg ah
+neg bl
+neg byte ptr [di+3456]
+cbw
+cwd
+
+
+u100
+u
+u
+u
+u
+u
+u
+u
+u
+u
+
+
+r cx
+c9
+n t9-oar.com
+w
+q
+

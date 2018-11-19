@@ -1,0 +1,122 @@
+a100
+mov cx, word ptr [bx]
+mov dx, word ptr [bx+78]
+mov bx, word ptr [bx+3456]
+mov si, word ptr [bx+si]
+mov di, word ptr [bx+si+79]
+mov bp, word ptr [bx+si+5678]
+mov si, word ptr [bx+di]
+mov di, word ptr [bx+di+29]
+mov bp, word ptr [bx+di+5678]
+mov sp, word ptr [si]
+mov dx, word ptr [si+28]
+mov bx, word ptr [si+3456]
+mov ax, word ptr [di]
+mov dx, word ptr [di+58]
+mov bx, word ptr [di+3456]
+mov cx, word ptr [bp]
+mov dx, word ptr [bp+58]
+mov bx, word ptr [bp+3456]
+mov si, word ptr [bp+si]
+mov di, word ptr [bp+si+39]
+mov bp, word ptr [bp+si+5678]
+mov si, word ptr [bp+di]
+mov di, word ptr [bp+di+49]
+mov bp, word ptr [bp+di+5678]
+mov word ptr [bx], cx
+mov word ptr [bx+78], dx 
+mov word ptr [bx+3456], bx 
+mov word ptr [bx+si], ax
+mov word ptr [bx+si+69], sp
+mov word ptr [bx+si+5678], di
+mov word ptr [bx+di], bp
+mov word ptr [bx+di+49], si
+mov word ptr [bx+di+5678], di
+mov word ptr [si], ax
+mov word ptr [si+78], cx
+mov word ptr [si+3456], dx
+mov word ptr [di], bp
+mov word ptr [di+78], sp
+mov word ptr [di+3456], si
+mov word ptr [bp], di
+mov word ptr [bp+78], cx
+mov word ptr [bp+3456], dx
+mov word ptr [bp+si], si
+mov word ptr [bp+si+59], di
+mov word ptr [bp+si+5678], ax
+mov word ptr [bp+di], di
+mov word ptr [bp+di+19], bx
+mov word ptr [bp+di+5678], dx
+mov al, byte ptr [di]
+mov ah, byte ptr [di+78]
+mov bh, byte ptr [di+3456]
+mov cl, byte ptr [bp]
+mov dl, byte ptr [bp+78]
+mov bl, byte ptr [bp+3456]
+mov ch, byte ptr [bp+si]
+mov byte ptr [di+78], dh
+mov byte ptr [di+3456], dl
+mov byte ptr [bp], ch
+mov byte ptr [bp+56], cl
+mov byte ptr [bp+3456], bh
+mov byte ptr [bp+si], bl
+mov byte ptr [bp+si+45], ah
+mov byte ptr [bp+si+5678], al
+mov byte ptr [di+78], 15
+mov byte ptr [di+3456], 16
+mov byte ptr [bp], 28
+mov byte ptr [bp+56], 88
+mov word ptr [bp+3456], 1234
+mov word ptr [bp+si], 3415
+mov word ptr [bp+si+45], 4785
+mov word ptr [bp+si+5678], 1536
+mov al, 15
+mov ah, 16
+mov cl, 28
+mov dh, 88
+mov bx, 1234
+mov si, 3415
+mov sp, 4785
+mov bp, 1536
+db c7 c5 12 54
+mov ax, [1234]
+mov al, [1234]
+mov word ptr [3412], ax
+mov byte ptr [3412], al
+mov word ptr [bx], cs
+mov word ptr [bx+78], ss 
+mov word ptr [bx+3456], ds 
+mov word ptr [bx+si], es
+mov word ptr [bx+si+69], cs
+mov ds, word ptr [bx]
+mov cs, word ptr [bx+78]
+mov ss, word ptr [bx+3456]
+mov es, word ptr [bx+si]
+mov ds, word ptr [bx+si+69]
+
+
+u100
+u
+u
+u
+u
+u
+u
+u
+u
+u
+
+r cx
+127
+n t1.com
+w
+q
+
+
+
+
+
+
+
+
+

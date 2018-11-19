@@ -1,0 +1,154 @@
+a100
+mul word ptr [bx]
+mul word ptr [bx+78]
+mul word ptr [bx+3456]
+mul word ptr [bx+si]
+mul word ptr [bx+si+79]
+mul word ptr [bx+si+5678]
+mul word ptr [bx+di]
+mul word ptr [bx+di+29]
+mul word ptr [bx+di+5678]
+mul word ptr [si]
+mul word ptr [si+28]
+mul word ptr [si+3456]
+mul word ptr [di]
+mul word ptr [di+58]
+mul word ptr [di+3456]
+mul bp
+mul word ptr [bp+58]
+mul word ptr [bp+3456]
+mul cx
+mul word ptr [bp+si+39]
+mul word ptr [bp+si+5678]
+mul dx
+mul word ptr [bp+di+49]
+mul si
+mul byte ptr [di+78]
+mul byte ptr [di+3456]
+mul dh
+mul byte ptr [bp+78]
+mul byte ptr [bp+3456]
+mul ah
+mul bl
+mul byte ptr [di+3456]
+imul word ptr [bx]
+imul word ptr [bx+78]
+imul word ptr [bx+3456]
+imul word ptr [bx+si]
+imul word ptr [bx+si+79]
+imul word ptr [bx+si+5678]
+imul word ptr [bx+di]
+imul word ptr [bx+di+29]
+imul word ptr [bx+di+5678]
+imul word ptr [si]
+imul word ptr [si+28]
+imul word ptr [si+3456]
+imul word ptr [di]
+imul word ptr [di+58]
+imul word ptr [di+3456]
+imul bp
+imul word ptr [bp+58]
+imul word ptr [bp+3456]
+imul cx
+imul word ptr [bp+si+39]
+imul word ptr [bp+si+5678]
+imul di
+imul word ptr [bp+di+49]
+imul si
+imul byte ptr [di+78]
+imul byte ptr [di+3456]
+imul dh
+imul byte ptr [bp+78]
+imul byte ptr [bp+3456]
+imul ah
+imul bl
+imul byte ptr [di+3456]
+div word ptr [bx]
+div word ptr [bx+78]
+div word ptr [bx+3456]
+div word ptr [bx+si]
+div word ptr [bx+si+79]
+div word ptr [bx+si+5678]
+div word ptr [bx+di]
+div word ptr [bx+di+29]
+div word ptr [bx+di+5678]
+div word ptr [si]
+div word ptr [si+28]
+div word ptr [si+3456]
+div word ptr [di]
+div word ptr [di+58]
+div word ptr [di+3456]
+div bp
+div word ptr [bp+58]
+div word ptr [bp+3456]
+div cx
+div word ptr [bp+si+39]
+div word ptr [bp+si+5678]
+div dx
+div word ptr [bp+di+49]
+div si
+div byte ptr [di+78]
+div byte ptr [di+3456]
+div dh
+div byte ptr [bp+78]
+div byte ptr [bp+3456]
+div dl
+div bl
+div byte ptr [di+3456]
+idiv word ptr [bx]
+idiv word ptr [bx+78]
+idiv word ptr [bx+3456]
+idiv word ptr [bx+si]
+idiv word ptr [bx+si+79]
+idiv word ptr [bx+si+5678]
+idiv word ptr [bx+di]
+idiv word ptr [bx+di+29]
+idiv word ptr [bx+di+5678]
+idiv word ptr [si]
+idiv word ptr [si+28]
+idiv word ptr [si+3456]
+idiv word ptr [di]
+idiv word ptr [di+58]
+idiv word ptr [di+3456]
+idiv bp
+idiv word ptr [bp+58]
+idiv word ptr [bp+3456]
+idiv ax
+idiv word ptr [bp+si+39]
+idiv word ptr [bp+si+5678]
+idiv dx
+idiv word ptr [bp+di+49]
+idiv si
+idiv byte ptr [di+78]
+idiv byte ptr [di+3456]
+idiv dh
+idiv byte ptr [bp+78]
+idiv byte ptr [bp+3456]
+idiv ah
+idiv bl
+idiv byte ptr [di+3456]
+
+
+u100
+u
+u
+u
+u
+u
+u
+u
+u
+u
+u
+u
+u
+u
+
+
+
+r cx
+178
+n t8-mdiv.com
+w
+q
+

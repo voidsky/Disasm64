@@ -1,0 +1,110 @@
+a100
+sbb cx, word ptr [bx]
+sbb dx, word ptr [bx+78]
+sbb bx, word ptr [bx+3456]
+sbb si, word ptr [bx+si]
+sbb di, word ptr [bx+si+79]
+sbb bp, word ptr [bx+si+5678]
+sbb si, word ptr [bx+di]
+sbb di, word ptr [bx+di+29]
+sbb bp, word ptr [bx+di+5678]
+sbb sp, word ptr [si]
+sbb dx, word ptr [si+28]
+sbb bx, word ptr [si+3456]
+sbb ax, word ptr [di]
+sbb dx, word ptr [di+58]
+sbb bx, word ptr [di+3456]
+sbb cx, word ptr [bp]
+sbb dx, word ptr [bp+58]
+sbb bx, word ptr [bp+3456]
+sbb si, word ptr [bp+si]
+sbb di, word ptr [bp+si+39]
+sbb bp, word ptr [bp+si+5678]
+sbb si, word ptr [bp+di]
+sbb di, word ptr [bp+di+49]
+sbb bp, word ptr [bp+di+5678]
+sbb word ptr [bx], cx
+sbb word ptr [bx+78], dx 
+sbb word ptr [bx+3456], bx 
+sbb word ptr [bx+si], ax
+sbb word ptr [bx+si+69], sp
+sbb word ptr [bx+si+5678], di
+sbb word ptr [bx+di], bp
+sbb word ptr [bx+di+49], si
+sbb word ptr [bx+di+5678], di
+sbb word ptr [si], ax
+sbb word ptr [si+78], cx
+sbb word ptr [si+3456], dx
+sbb word ptr [di], bp
+sbb word ptr [di+78], sp
+sbb word ptr [di+3456], si
+sbb word ptr [bp], di
+sbb word ptr [bp+78], cx
+sbb word ptr [bp+3456], dx
+sbb word ptr [bp+si], si
+sbb word ptr [bp+si+59], di
+sbb word ptr [bp+si+5678], ax
+sbb word ptr [bp+di], di
+sbb word ptr [bp+di+19], bx
+sbb word ptr [bp+di+5678], dx
+sbb al, byte ptr [di]
+sbb ah, byte ptr [di+78]
+sbb bh, byte ptr [di+3456]
+sbb cl, byte ptr [bp]
+sbb dl, byte ptr [bp+78]
+sbb bl, byte ptr [bp+3456]
+sbb ch, byte ptr [bp+si]
+sbb byte ptr [di+78], dh
+sbb byte ptr [di+3456], dl
+sbb byte ptr [bp], ch
+sbb byte ptr [bp+56], cl
+sbb byte ptr [bp+3456], bh
+sbb byte ptr [bp+si], bl
+sbb byte ptr [bp+si+45], ah
+sbb byte ptr [bp+si+5678], al
+sbb byte ptr [di+78], 15
+sbb byte ptr [di+3456], 16
+sbb byte ptr [bp], 28
+sbb byte ptr [bp+56], 88
+sbb word ptr [bp+3456], 1234
+sbb word ptr [bp+si], 3415
+sbb word ptr [bp+si+45], 4785
+sbb word ptr [bp+si+5678], 1536
+sbb word ptr [bp+3456], 12
+sbb word ptr [bp+si], 35
+sbb word ptr [bp+si+45], 45
+sbb word ptr [bp+si+5678], 16
+sbb cl, 15
+sbb ch, 16
+sbb dl, 28
+sbb ah, 88
+sbb bx, word ptr 1234
+sbb di, word ptr 3415
+sbb sp, word ptr 4785
+sbb bp, word ptr 1536
+sbb bx, byte ptr 14
+sbb si, byte ptr 35
+sbb sp, byte ptr 65
+sbb bp, byte ptr 16
+db 04 17
+db 05 17 52
+
+
+u100
+u
+u
+u
+u
+u
+u
+u
+u
+u
+
+
+r cx
+125
+n t6-sbb.com
+w
+q
+
