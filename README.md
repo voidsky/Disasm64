@@ -25,6 +25,17 @@ Some tests are in test.bat
 
 Basicly, disasm64.exe take file name as argument and outputs 8086 assembly code.
 
+disasm64.asm - main application that produces executable.
+    Here we read command line argument, get file sie, aloocate some memory and read file.
+    Then we call disassembly procedure.
+nasmlibc.asm - some helper procedures, also external c function declarations I have used.
+nasmmac.inc - few helper macros.
+mnemonics.asm - main dissassembler code is here, probably should split in sepearate files as its too long.
+    procDisasambliuok - main procedure that itterates over memory buffer, takes byte by byte and passes it to dissassembly procedures.
+        Each procedure either return 0 if it does not identify code, or prints out operation and returns operation size in bytes.
+        If procedure was identified, in procDisasambliuok we skip returned number of bytes and start identification over again.
+        
+       
 
     
     
