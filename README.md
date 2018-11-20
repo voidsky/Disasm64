@@ -16,7 +16,14 @@ I have chosen such technolgies because I was curious about few topis:
 - Dissassembling some simple c applications and exploriing how assemblu code is constructed using c compile.
     To understand how some c function calls are made I have used some super simple c programs that I decompiled using gdb.
     
-    
+To build this project on windows 64 you will need:
+- NASM or YASM ( add its path to PATH variable )
+- mingw-w64 (i have used x86_64-8.1.0-posix-seh-rt_v6-rev0 , https://mingw-w64.org/doku.php/download/mingw-builds )
+
+Build script is build.bat
+Some tests are in test.bat
+
+Basicly, disasm64.exe take file name as argument and outputs 8086 assembly code.
 
 
     
