@@ -6,7 +6,7 @@
 
 Project is done using nasm(yasm) 64 bit assembly and some c functions to handle input/output.
 
-I have chosen such technolgies because I was curious about few topis:
+I have chosen such technologies because I was curious about few topics:
 - Learning about asm 64 bit programming 
 - Compiling assembly executable for windows 64 platform. 
     During the comp architecture course we were doing assembly programming for a ms dos using dosbox. 
@@ -15,8 +15,8 @@ I have chosen such technolgies because I was curious about few topis:
     During the comp architecture course we were using dos api (int) to handle input, output and some other manipulations.
     For modern platform you could use windows api function calls or libraries from higher level programming languages. 
     I have chosen to use c and use some basic c input output functions.
-- Understandig assembly procedure calls on 64 platform and differences between win 64 calls and unix/posix 64 calls.
-- Dissassembling some simple c applications and exploriing how assemblu code is constructed using c compile.
+- Understanding assembly procedure calls on 64 platform and differences between win 64 calls and unix/posix 64 calls.
+- Disassembling some simple c applications and exploring how assembly code is constructed using c compile.
     To understand how some c function calls are made I have used some super simple c programs that I decompiled using gdb.
     
 To build this project on windows 64 you will need:
