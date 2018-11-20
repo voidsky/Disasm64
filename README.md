@@ -1,5 +1,8 @@
 # Disasm64
 8086 disassembly application. Project done during computer architecture course.
+    
+    I feel that there might be more clever way to implement this, but this is how I did it.
+    Also, this code could be much more optimized and I see many places for refactoring, but that is for the future. 
 
 Project is done using nasm(yasm) 64 bit assembly and some c functions to handle input/output.
 
